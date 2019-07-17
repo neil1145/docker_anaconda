@@ -10,4 +10,4 @@ The open-source Anaconda Distribution is the easiest way to perform Python/R dat
 
 
 docker run --name data-science -p 8888:8888 --env="DISPLAY" \
-      -v "$PWD/notebooks:/home/ubuntu/notebooks" -d neil1145/anaconda:2019.03
+      -v "$PWD/notebooks:/home/doom/notebooks" -d neil1145/anaconda:2019.03
