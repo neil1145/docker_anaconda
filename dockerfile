@@ -24,8 +24,6 @@ RUN chmod a+rwx /home/doom/
 
 # Anaconda installing
 RUN wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
-
-x86_64.sh
 RUN bash Anaconda3-2019.03-Linux-x86_64.sh -b
 RUN rm Anaconda3-2019.03-Linux-x86_64.sh
 
